@@ -1,0 +1,29 @@
+[user]
+  name = Eric J. Duran
+  email = eric.duran7@gmail.com
+  signingkey = FF9D1C01
+
+[color]
+  ui = true
+
+[alias]
+  br = branch
+  ci = commit
+  co = checkout
+  df = diff
+  dc = diff --cached
+  f = fetch --all
+  lg = log -p
+  cl = clean -f -d
+  r = remote -v
+  showlast = !git log -1 --format="%h" | git show
+  st = status
+  rm-stage = !git ls-files --deleted | xargs git rm
+  wtf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[core]
+  excludesfile = ~/.gitignore_global
+[push]
+  default = simple
+[credential]
+  helper = osxkeychain
