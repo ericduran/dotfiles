@@ -52,7 +52,7 @@ export GOPATH=$HOME/go
 pathdirs=(
     /Applications/Splunk/bin
     /usr/local/opt/ruby/bin
-    $(brew --prefix php55)/bin #php bin
+    #$(brew --prefix php55)/bin #php bin
     ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
     ~/Workspace/chromium/depot_tools
@@ -69,5 +69,5 @@ done
 PATH="/usr/local/bin:$PATH"
 
 fpath=(/usr/local/share/zsh/site-functions $fpath)
-source ~/.gem/gems/tmuxinator-0.6.7/completion/tmuxinator.zsh
-source ~/.fzf.zsh
+#source ~/.gem/gems/tmuxinator-0.6.7/completion/tmuxinator.zsh
+#source ~/.fzf.zsh
