@@ -51,7 +51,7 @@ export GOPATH=$HOME/go
 # Extra directories in path.
 pathdirs=(
     /Applications/Splunk/bin
-    /usr/local/opt/ruby/bin
+    ~/.gem/ruby/2.0.0/bin
     #$(brew --prefix php55)/bin #php bin
     ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
