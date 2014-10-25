@@ -5,6 +5,7 @@ Dotfiles castle managed with [homesick](https://github.com/technicalpickles/home
 
 ```
 #new setup
+sudo gem update --system
 sudo chown -R $USER /Library/Ruby /Library/Perl /Library/Python
 gem install homesick
 ```
