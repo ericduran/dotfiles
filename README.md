@@ -1,14 +1,13 @@
 dotfiles
 ========
 
-Dotfiles castle managed with [homesick](https://github.com/technicalpickles/homesick)
+Dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/)
 
-```
-#new setup
-sudo gem update --system
-sudo chown -R $USER /Library/Ruby /Library/Perl /Library/Python
-gem install homesick
-```
+
+Setup:
+
+ - Mac: `$ brew install stow`
+ - Linux: `$ sudo apt-get install stow`
 
 
 ```
