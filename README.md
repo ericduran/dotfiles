@@ -12,8 +12,11 @@ Setup:
 
 ```
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-homesick clone git@github.com:ericduran/dotfiles.git
-homesick link dotfiles
+git clone git@github.com:ericduran/dotfiles.git ~/dotfiles
+cd dotfiles
+stow home
+stow tmux
+stow git
 
 # Change to zsh
 chsh -s /bin/zsh
