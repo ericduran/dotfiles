@@ -23,7 +23,7 @@ alias g="hub"
 alias copy="pbcopy"
 alias tunnel="ssh utils -R \*:8081:localhost:80 -g -N -n &"
 alias tunnel-kill="pkill ssh"
-
+alias dc="docker-compose"
 
 #Dev Tools Development
 alias start-devtools="cd ~/Workspace/chromium/blink/Source/devtools && python -m SimpleHTTPServer"
@@ -37,7 +37,6 @@ export GOPATH=$HOME/go
 # Extra directories in path.
 pathdirs=(
     /Applications/Splunk/bin
-    ~/.gem/ruby/2.0.0/bin
     ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
     ~/Workspace/chromium/depot_tools
