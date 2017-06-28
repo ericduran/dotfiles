@@ -17,6 +17,7 @@ cd dotfiles
 stow home
 stow tmux
 stow git
+stow karabiner
 
 # Change to zsh
 chsh -s /bin/zsh
