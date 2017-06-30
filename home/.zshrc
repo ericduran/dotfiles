@@ -4,16 +4,17 @@ ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load.
 ZSH_THEME="ericduran"
 
-# Example aliases
-alias ohmyzsh="atom ~/.oh-my-zsh"
-alias finder-hidden-hide="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
-alias finder-hidden-show="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
-alias drupalcs="phpcs --standard=Drupal --extensions=module,inc,install,test,profile,theme"
-
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
 
 plugins=(git github)
+
+# Alias: Actions
+alias ohmyzsh="atom ~/.oh-my-zsh"
+alias s="source ~/.zshrc"
+alias finder-hidden-hide="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
+alias finder-hidden-show="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
+alias drupalcs="phpcs --standard=Drupal --extensions=module,inc,install,test,profile,theme"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -24,6 +25,7 @@ alias copy="pbcopy"
 alias tunnel="ssh utils -R \*:8081:localhost:80 -g -N -n &"
 alias tunnel-kill="pkill ssh"
 alias dc="docker-compose"
+alias vim="nvim"
 
 #Dev Tools Development
 alias start-devtools="cd ~/Workspace/chromium/blink/Source/devtools && python -m SimpleHTTPServer"
