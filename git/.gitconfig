@@ -19,6 +19,7 @@
   r = remote -v
   showlast = !git log -1 --format="%h" | git show
   st = status
+  s = status --porcelain
   rm-stage = !git ls-files --deleted | xargs git rm
   wtf = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 
