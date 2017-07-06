@@ -55,6 +55,13 @@ done
 # Make sure /usr/local/bin is always first.
 PATH="/usr/local/bin:$PATH"
 
-fpath=(/usr/local/share/zsh/site-functions $fpath)
+fpath=(
+  /usr/local/share/zsh/site-functions
+  $fpath
+)
+
+function col() {
+  awk -v column=$1 '{print $column}'
+}
 #source ~/.gem/gems/tmuxinator-0.6.7/completion/tmuxinator.zsh
 #source ~/.fzf.zsh
