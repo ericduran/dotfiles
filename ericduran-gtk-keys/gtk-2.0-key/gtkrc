@@ -1,0 +1,18 @@
+#
+# A keybinding set implementing Macs Like (aka emacs) binding, but
+# with alt instead of ctrl because I have my alt+ctrl swap to have
+# more mac like feel
+#
+
+#
+# Bindings for GtkTextView and GtkEntry
+#
+binding "gtk-ericduran-text-entry"
+{
+  bind "<alt>a" { "move-cursor" (paragraph-ends, -1, 0) }
+  bind "<alt>f" { "move-cursor" (logical-positions, 1, 0) }
+  bind "<alt>e" { "move-cursor" (paragraph-ends, 1, 0) }
+}
+
+class "GtkEntry" binding "gtk-ericduran-text-entry"
+class "GtkTextView" binding "gtk-ericduran-text-entry"

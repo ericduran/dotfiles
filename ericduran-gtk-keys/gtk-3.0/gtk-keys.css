@@ -1,0 +1,17 @@
+/*
+ * Bindings for GtkTextView and GtkEntry
+ */
+@binding-set gtk-ericduran-text-entry
+{
+  bind "<alt>a" { "move-cursor" (paragraph-ends, -1, 0) };
+  bind "<alt>f" { "move-cursor" (logical-positions, 1, 0) };
+  bind "<alt>e" { "move-cursor" (paragraph-ends, 1, 0) };
+}
+
+entry {
+  -gtk-key-bindings: gtk-ericduran-text-entry;
+}
+
+textview {
+  -gtk-key-bindings: gtk-ericduran-text-entry;
+}
