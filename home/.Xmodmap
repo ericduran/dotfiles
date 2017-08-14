@@ -1,0 +1,12 @@
+! Change Caps lock to WinKey for i3 Modified
+clear Lock
+keycode 66 = Hyper_L
+add mod4 = Hyper_L
+
+! Change Alt to CTRL for "mac command" feel
+clear control
+clear mod1
+keycode 37 = Alt_L Meta_L
+keycode 64 = Control_L
+add control = Control_L Control_R
+add mod1 = Alt_L Meta_L
