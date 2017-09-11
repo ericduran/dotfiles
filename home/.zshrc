@@ -18,6 +18,9 @@ alias drupalcs="phpcs --standard=Drupal --extensions=module,inc,install,test,pro
 
 source $ZSH/oh-my-zsh.sh
 
+# Alias: Networking
+alias wifi-list="nmcli dev wifi"
+
 # Alias...
 alias ll="ls -la"
 alias g="hub"
