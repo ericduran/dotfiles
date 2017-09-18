@@ -1,6 +1,7 @@
 #!/bin/bash
 
 listOfBrewInstall="git
+tmux
 node
 yarn
 ruby
