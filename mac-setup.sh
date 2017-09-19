@@ -1,11 +1,15 @@
 #!/bin/bash
 
 listOfBrewInstall="git
+less
+lesspipe
+pdftohtml
 tmux
 irssi
 node
 yarn
 ruby
+
 kubectl
 awscli"
 

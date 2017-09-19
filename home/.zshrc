@@ -38,6 +38,8 @@ alias start-devtools-canary="/Applications/Google\ Chrome\ Canary.app/Contents/M
 export EDITOR="vi"
 export GOROOT=/usr/local/Cellar/go/1.2/libexec
 export GOPATH=$HOME/go
+LESSOPEN="|lesspipe.sh %s";
+export LESSOPEN
 
 # Extra directories in path.
 pathdirs=(
