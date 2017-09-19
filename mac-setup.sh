@@ -2,6 +2,7 @@
 
 listOfBrewInstall="git
 tmux
+irssi
 node
 yarn
 ruby
