@@ -47,7 +47,7 @@ pathdirs=(
     /usr/local/share/npm/bin #node npm
     ~/Workspace/chromium/depot_tools
     "/Applications/Android Studio.app/sdk/platform-tools"
-    ~/go/bin
+    ~/Workspace/go/bin
 )
 
 for dir in $pathdirs; do
