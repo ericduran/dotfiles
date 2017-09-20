@@ -9,7 +9,7 @@ irssi
 node
 yarn
 ruby
-
+minikube
 kubectl
 awscli"
 
