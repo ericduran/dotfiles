@@ -9,11 +9,12 @@ irssi
 node
 yarn
 ruby
-minikube
+go
 kubectl
 awscli"
 
 listOfCaskInstall="iterm2
+minikube
 keybase
 alfred"
 
@@ -26,3 +27,4 @@ for app in $listOfCaskInstall
 do
   brew cask install "$app"
 done
+
