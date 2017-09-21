@@ -6,6 +6,7 @@ lesspipe
 pdftohtml
 tmux
 irssi
+jq
 node
 yarn
 ruby
