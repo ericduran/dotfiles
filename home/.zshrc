@@ -41,12 +41,15 @@ LESSOPEN="|lesspipe.sh %s";
 export LESSOPEN
 
 # Extra directories in path.
+# TODO: Fix this, this is a problem when having different shell level
+#       aka the paths keep getting appended every level
 pathdirs=(
     /Applications/Splunk/bin
     ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
     ~/Workspace/chromium/depot_tools
     "/Applications/Android Studio.app/sdk/platform-tools"
+    ~/.cargo/bin
     ~/Workspace/go/bin
 )
 
