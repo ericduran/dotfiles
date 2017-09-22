@@ -7,6 +7,7 @@ pdftohtml
 tmux
 irssi
 jq
+kubernetes-helm
 node
 tldr
 yarn
