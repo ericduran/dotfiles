@@ -8,6 +8,7 @@ tmux
 irssi
 jq
 node
+tldr
 yarn
 ruby
 go
