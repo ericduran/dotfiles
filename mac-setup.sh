@@ -10,6 +10,8 @@ jq
 kubernetes-helm
 node
 tldr
+sqlite
+newsbeuter
 yarn
 ruby
 go
