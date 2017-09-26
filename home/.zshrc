@@ -47,10 +47,10 @@ pathdirs=(
     /Applications/Splunk/bin
     ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
-    ~/Workspace/chromium/depot_tools
     "/Applications/Android Studio.app/sdk/platform-tools"
     ~/.cargo/bin
     ~/Workspace/go/bin
+    ~/Workspace/depot_tools
 )
 
 for dir in $pathdirs; do
