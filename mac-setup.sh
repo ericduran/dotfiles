@@ -23,6 +23,7 @@ awscli"
 
 listOfCaskInstall="iterm2
 minikube
+atom
 keybase
 alfred"
 
