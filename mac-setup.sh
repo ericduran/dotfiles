@@ -4,6 +4,7 @@ listOfBrewInstall="git
 less
 lesspipe
 pdftohtml
+hub
 tmux
 irssi
 jq
@@ -16,6 +17,8 @@ yarn
 ruby
 go
 kubectl
+wget
+vault
 awscli"
 
 listOfCaskInstall="iterm2
