@@ -52,6 +52,11 @@ prompt_context() {
 
 # Git: branch/detached head, dirty status
 prompt_git() {
+  # Ignore git prompt on large repos (aka Chromium).
+  if [[ "$(git config --get oh-my-zsh.hide-status)" == "1" ]]; then
+    return
+  fi
+
   local ref dirty mode repo_path
   repo_path=$(git rev-parse --git-dir 2>/dev/null)
 
