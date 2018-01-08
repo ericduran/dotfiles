@@ -50,7 +50,7 @@ pathdirs=(
     "/Applications/Android Studio.app/sdk/platform-tools"
     ~/.cargo/bin
     ~/Workspace/go/bin
-    ~/Workspace/depot_tools
+    ~/Workspace/chrome/depot_tools
 )
 
 for dir in $pathdirs; do
