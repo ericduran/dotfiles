@@ -8,5 +8,7 @@
 
 set number
 syntax on
-set background=dark
-colorscheme solarized
+
+" Make sure trailing spaces and tab chars are visible.
+set list
+set listchars=tab:⇒↠,trail:•,extends:↩
