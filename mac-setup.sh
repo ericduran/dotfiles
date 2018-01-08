@@ -2,6 +2,7 @@
 
 listOfBrewInstall="git
 less
+fish
 hub
 tmux
 irssi
