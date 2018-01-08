@@ -1,10 +1,10 @@
-call plug#begin('~/.local/share/nvim/plugged')
+" call plug#begin('~/.local/share/nvim/plugged')
 
 " List plugins
-Plug 'altercation/vim-colors-solarized'
+"Plug 'altercation/vim-colors-solarized'
 
 " Init plugins
-call plug#end()
+"call plug#end()
 
 set number
 syntax on
