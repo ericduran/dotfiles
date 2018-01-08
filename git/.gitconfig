@@ -15,7 +15,6 @@
   dc = diff --cached
   f = fetch --all
   lg = log -p
-  cl = clean -f -d
   r = remote -v
   showlast = !git log -1 --format="%h" | git show
   st = status
@@ -29,3 +28,5 @@
   default = simple
 [credential]
   helper = osxkeychain
+[http]
+  cookiefile = /Users/ericduran/.gitcookies
