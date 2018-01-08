@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# idea: Add brew command to post append the command I ran here
+# same thing when I run brew cask install, it's kinda annoying to keep this updated
 listOfBrewInstall="git
 less
 fish
@@ -13,7 +15,8 @@ wget"
 
 listOfCaskInstall="iterm2
 atom
-keybase"
+keybase
+visual-studio-code"
 
 for app in $listOfBrewInstall
 do
