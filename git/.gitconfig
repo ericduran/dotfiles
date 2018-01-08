@@ -29,4 +29,5 @@
 [credential]
   helper = osxkeychain
 [http]
+  # @see https://www.chromium.org/chromium-os/developer-guide/gerrit-guide
   cookiefile = /Users/ericduran/.gitcookies
