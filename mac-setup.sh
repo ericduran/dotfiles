@@ -2,30 +2,17 @@
 
 listOfBrewInstall="git
 less
-lesspipe
-pdftohtml
 hub
 tmux
 irssi
 jq
-kubernetes-helm
 node
 tldr
-sqlite
-newsbeuter
-yarn
-ruby
-go
-kubectl
-wget
-vault
-awscli"
+wget"
 
 listOfCaskInstall="iterm2
-minikube
 atom
-keybase
-alfred"
+keybase"
 
 for app in $listOfBrewInstall
 do
