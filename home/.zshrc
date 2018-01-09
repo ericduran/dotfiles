@@ -6,7 +6,6 @@ ZSH_THEME="ericduran"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
-
 plugins=(git github)
 
 # Alias: Actions
@@ -44,11 +43,8 @@ export LESSOPEN
 # TODO: Fix this, this is a problem when having different shell level
 #       aka the paths keep getting appended every level
 pathdirs=(
-    /Applications/Splunk/bin
-    ~/androidsdk/platform-tools
     /usr/local/share/npm/bin #node npm
-    "/Applications/Android Studio.app/sdk/platform-tools"
-    ~/.cargo/bin
+    /usr/local/opt/go@1.8/libexec/bin #add to patch because it's not the default brew version
     ~/Workspace/go/bin
     /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
     ~/Workspace/chrome/depot_tools
