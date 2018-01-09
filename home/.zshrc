@@ -50,6 +50,7 @@ pathdirs=(
     "/Applications/Android Studio.app/sdk/platform-tools"
     ~/.cargo/bin
     ~/Workspace/go/bin
+    /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
     ~/Workspace/chrome/depot_tools
 )
 
