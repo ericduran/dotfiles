@@ -15,6 +15,7 @@ wget"
 
 listOfCaskInstall="iterm2
 atom
+google-cloud-sdk
 keybase
 visual-studio-code"
 
