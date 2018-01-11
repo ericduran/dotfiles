@@ -48,6 +48,7 @@ pathdirs=(
     ~/Workspace/go/bin
     /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
     ~/Workspace/chrome/depot_tools
+    ~/.cargo/bin
 )
 
 for dir in $pathdirs; do
