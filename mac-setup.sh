@@ -6,6 +6,7 @@ listOfBrewInstall="git
 less
 fish
 hub
+rust
 tmux
 irssi
 jq
