@@ -36,8 +36,6 @@ alias start-devtools-canary="/Applications/Google\ Chrome\ Canary.app/Contents/M
 #exports
 export EDITOR="vi"
 export GOPATH=$HOME/Workspace/go
-LESSOPEN="|lesspipe.sh %s";
-export LESSOPEN
 
 # Extra directories in path.
 # TODO: Fix this, this is a problem when having different shell level
