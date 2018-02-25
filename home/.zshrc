@@ -70,4 +70,3 @@ fpath=(
 function col() {
   awk -v column=$1 '{print $column}'
 }
-
