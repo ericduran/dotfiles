@@ -13,7 +13,6 @@ alias ohmyzsh="atom ~/.oh-my-zsh"
 alias s="source ~/.zshrc"
 alias finder-hidden-hide="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
 alias finder-hidden-show="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
-alias drupalcs="phpcs --standard=Drupal --extensions=module,inc,install,test,profile,theme"
 
 source $ZSH/oh-my-zsh.sh
 
