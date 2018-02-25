@@ -26,9 +26,10 @@ alias copy="pbcopy"
 alias tunnel="ssh utils -R \*:8081:localhost:80 -g -N -n &"
 alias tunnel-kill="pkill ssh"
 alias dc="docker-compose"
+alias vi="nvim"
 alias vim="nvim"
 
-#Dev Tools Development
+#Alias: Dev Tools Development
 alias start-devtools="cd ~/Workspace/chromium/blink/Source/devtools && python -m SimpleHTTPServer"
 alias start-devtools-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --remote-debugging-port=9222 --no-first-run --remote-debugging-frontend='http://localhost:8000/front_end/inspector.html' --user-data-dir=Workspace/chromium/chromeServerProfile"
 
@@ -38,16 +39,18 @@ export GOPATH=$HOME/Workspace/go
 
 # Extra directories in path.
 # TODO: Fix this, this is a problem when having different shell level
-#       aka the paths keep getting appended every level
+#       aka the paths keep getting appended every level.
+#       Since I use zsh inside of tmux inside of zshl, I'm always at least
+#       2 levels deep. This is just ugly.
 pathdirs=(
     /usr/local/share/npm/bin #node npm
-    /usr/local/opt/go@1.8/libexec/bin #add to patch because it's not the default brew version
     ~/Workspace/go/bin
     /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
     ~/Workspace/chrome/depot_tools
     ~/.cargo/bin
 )
 
+# TODO: Check levels
 for dir in $pathdirs; do
     if [ -d $dir ]; then
         path+=$dir
@@ -62,8 +65,9 @@ fpath=(
   $fpath
 )
 
+# Usage: ll | col 3
+# An easy way to just print a specific col from the output
 function col() {
   awk -v column=$1 '{print $column}'
 }
-#source ~/.gem/gems/tmuxinator-0.6.7/completion/tmuxinator.zsh
-#source ~/.fzf.zsh
+
