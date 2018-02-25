@@ -5,12 +5,14 @@
 listOfBrewInstall="git
 less
 fish
+fpp
 hub
 rust
 tmux
 irssi
 jq
 node
+urlview
 tldr
 wget"
 
