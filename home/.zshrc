@@ -6,7 +6,10 @@ ZSH_THEME="ericduran"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
-plugins=(git github)
+plugins=(git github vi-mode)
+
+# Use vi key bindings.
+bindkey -v
 
 # Alias: Actions
 alias ohmyzsh="atom ~/.oh-my-zsh"
